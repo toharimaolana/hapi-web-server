@@ -33,6 +33,14 @@ const routes = [
         handler: (request, h) => {
             return 'Not Found!';
         },
+    },
+    {
+        method: 'GET',
+        path: '/hello/{name?}',
+        handler: (request, h) => {
+            const { name = 'Stranger' } = request.params;
+            return `Hello, ${name}!`;
+        },
     }
 ]
 
