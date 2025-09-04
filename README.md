@@ -5,8 +5,8 @@ The goal is to set up a basic server and create routes using Hapi.
 
 ---
 
-## 🛠️ Installation
+## 🛠️ Installation Hapi
 
-1. Initialize your project (if not already done):
+1. Initialize 
    ```bash
-   npm init -y
+   npm install @hapi/hapi
